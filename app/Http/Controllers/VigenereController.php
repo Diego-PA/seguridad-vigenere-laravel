@@ -6,7 +6,13 @@ use Illuminate\Http\Request;
 class VigenereController extends Controller
 {
 
-    /* Referencias en la elaboración de este pequeño sistema web.
+    /* 
+    Cifrado Vigenere en Laravel 7 por Diego Puebla Aldama
+    -Se puede instalar con la herramienta composer descargando el repositorio y ejecutando desde la consola en la carpeta raiz: "composer install" y "php artisan key:generate"
+    -La ruta raiz debería ser 127.0.0.1/seguridad-vigenere-laravel/public/ en caso del repositorio.
+    -En caso de un .zip la ruta principal debería ser 127.0.0.1/vigenere-puebla-aldama-diego/public/
+    
+    Referencias en la elaboración de este pequeño sistema web.
     Repositorio de noorxbyte: https://gist.github.com/noorxbyte/27f989fc5d1a0ee10b7f
     Geeks for Geeks: https://www.geeksforgeeks.org/vigenere-cipher/
     Pruebas de funcionamiento: https://es.planetcalc.com/2468/
