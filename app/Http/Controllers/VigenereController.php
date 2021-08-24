@@ -6,6 +6,13 @@ use Illuminate\Http\Request;
 class VigenereController extends Controller
 {
 
+    /* Referencias en la elaboración de este pequeño sistema web.
+    Repositorio de noorxbyte: https://gist.github.com/noorxbyte/27f989fc5d1a0ee10b7f
+    Geeks for Geeks: https://www.geeksforgeeks.org/vigenere-cipher/
+    Pruebas de funcionamiento: https://es.planetcalc.com/2468/
+    */
+
+
     public function index(){
         return view('index');
     }
